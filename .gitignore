@@ -7,6 +7,7 @@ app/*.jks
 app/*.p8
 app/*.p12
 app/*.key
+app/*.ini
 app/*.mobileprovision
 app/*.orig.*
 app/web-build/
@@ -36,6 +37,9 @@ api/dist/
 api/build/
 api/*.egg-info/
 api/*.egg
+
+# Config
+api/*.ini
 
 # Virtual environments
 api/venv/
