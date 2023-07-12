@@ -1,0 +1,82 @@
+# Node
+app/node_modules/
+app/.expo/
+app/dist/
+app/npm-debug.*
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+app/*.orig.*
+app/web-build/
+
+# macOS
+app/.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+app/.metro-health-check*
+
+# Python
+
+# Byte-compiled / optimized / DLL files
+api/__pycache__/
+api/migrations/__pycache__/
+api/migrations/versions/__pycache__/
+api/*.py[cod]
+api/*$py.class
+
+api/migrations/
+
+# C extensions
+api/*.so
+
+# Distribution / packaging
+api/dist/
+api/build/
+api/*.egg-info/
+api/*.egg
+
+# Virtual environments
+api/venv/
+api/env/
+api/env.bak/
+api/env1/
+api/venv1/
+
+# IDEs and editors
+api/.idea/
+api/.vscode/
+api/*.swp
+api/*.swo
+api/*~
+
+# Environment variables
+api/.env
+
+# Logs and database files
+api/*.log
+api/*.sqlite3
+
+# Test coverage
+api/htmlcov/
+api/.coverage
+api/.coverage.*
+api/.cache/
+
+# Miscellaneous
+api/.DS_Store
+api/*.bak
+api/*.tmp
+api/*.pyc
+api/*.pyo
+api/*~
+
+# Jupyter Notebook
+api/.ipynb_checkpoints/
+
+# MyPy
+api/.mypy_cache/
+
+# Sphinx documentation
+api/docs/_build/
